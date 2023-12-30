@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+   margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {  
+    cursor: pointer; 
+    font-size: 13px ;
+}
+
+li{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#current-image-container {
+    margin-bottom: 20px;
+}
+
+#search-history {
+    list-style-type: none; 
+    padding: 0;
+}
+
+#search-history li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#img-container{
+    width: 100%;
+    background-color: black;
+    color: white;  
+    padding-bottom: 40px;
+}
+
+ img{
+    width: 90%;
+ }
